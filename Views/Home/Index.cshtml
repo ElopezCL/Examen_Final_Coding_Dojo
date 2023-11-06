@@ -1,0 +1,21 @@
+﻿
+@model IndexData;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<div class="contenedor">
+    <h1 class="mb-4">Welcome to Arstgram</h1>
+    <div class="row">
+        <div class="col-md-6">
+         @await Html.PartialAsync("_UserRegister", @Model.Register)
+        </div>
+        <div class="col-md-6">
+           @await Html.PartialAsync("_UserLogin", @Model.Login)
+        </div>
+    </div>
+</div>
+

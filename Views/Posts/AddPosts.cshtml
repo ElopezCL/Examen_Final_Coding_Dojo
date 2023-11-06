@@ -1,0 +1,41 @@
+ @{
+    Layout = "~/Views/Shared/_LayoutPost.cshtml"; // Especifica el segundo layout
+}
+
+
+
+@using Artsgram.Models;
+@model PostUser;
+
+
+<form asp-action="AgregarPost" asp-controller="Posts"  style="margin-top: 5px;">
+    <h3>Make a post</h3>
+    <div class="form-group">
+        <label asp-for="@Model.Articulo.URL">Image (URL format please)</label>
+        <input asp-for="@Model.Articulo.URL" type="text" class="form-control form-control-sm"
+            id="exampleFormControlInput1" placeholder="Image URL">
+        <span asp-validation-for="@Model.Articulo.URL"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Articulo.Title" for="exampleFormControlInput1">Title</label>
+        <input asp-for="@Model.Articulo.Title type=" text" class="form-control form-control-sm"
+            id="exampleFormControlInput2" placeholder="Title">
+        <span asp-validation-for="@Model.Articulo.Title"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Articulo.Medium" for="exampleFormControlInput1">Medium</label>
+        <input asp-for="@Model.Articulo.Medium" type="text" class="form-control form-control-sm"
+            id="exampleFormControlInput2" placeholder="Medium">
+        <span asp-validation-for="@Model.Articulo.Medium"></span>
+    </div>
+
+    <div class="form-check">
+        <input asp-for="@Model.Articulo.ForSale" class="form-check-input" type="checkbox" id="defaultCheck1">
+        <label asp-for="@Model.Articulo.ForSale" class="form-check-label" for="defaultCheck1">
+            Post Sale
+        </label>
+    </div>
+
+    <button class="btn btn-primary mt-3">Post</button>
+</form>
+

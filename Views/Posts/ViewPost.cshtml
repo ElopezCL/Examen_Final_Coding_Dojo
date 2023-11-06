@@ -1,0 +1,31 @@
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="@Model.Post.URL" class="img-fluid" alt="Imagen">
+
+            <h1>@Model.Post.Title</h1>
+
+            <div class="post-details">
+                <p><strong>Medium:</strong> @Model.Post.Medium</p>
+                <p><strong>By:</strong> @Model.UserName</p>
+
+                @if(@Model.Post.ForSale){
+                    <p><strong>For Sale</strong></p>
+                } else {
+                    <p><strong>Not For Sale</strong></p>
+                }
+
+                @if(@Model.UserSession == @Model.UserId){
+                        <form method="get" asp-controller="Posts" asp-action="EditPost" asp-route-PostId="@Model.Post.PostId">
+                        <button type="submit" class="btn btn-primary mb-3">Edit</button>
+                        </form>
+                        <form method="post" asp-controller="Posts" asp-action="EliminarPost" asp-route-PostId="@Model.Post.PostId">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                }
+            </div>
+        </div>
+    </div>
+</div>

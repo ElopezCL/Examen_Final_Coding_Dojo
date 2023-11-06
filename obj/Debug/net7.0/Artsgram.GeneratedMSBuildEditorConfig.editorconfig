@@ -1,0 +1,61 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Artsgram
+build_property.RootNamespace = Artsgram
+build_property.ProjectDir = C:\Users\EmilioLop\Desktop\Asp.net\Evaluacion_Final_Coding_Dojo\Artsgram\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\EmilioLop\Desktop\Asp.net\Evaluacion_Final_Coding_Dojo\Artsgram
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/EmilioLop/Desktop/Asp.net/Evaluacion_Final_Coding_Dojo/Artsgram/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/EmilioLop/Desktop/Asp.net/Evaluacion_Final_Coding_Dojo/Artsgram/Views/Posts/AddPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcQWRkUG9zdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/EmilioLop/Desktop/Asp.net/Evaluacion_Final_Coding_Dojo/Artsgram/Views/Posts/NewPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcTmV3UG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/EmilioLop/Desktop/Asp.net/Evaluacion_Final_Coding_Dojo/Artsgram/Views/Posts/ViewPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcVmlld1Bvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/EmilioLop/Desktop/Asp.net/Evaluacion_Final_Coding_Dojo/Artsgram/Views/Shared/_LayoutPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/EmilioLop/Desktop/Asp.net/Evaluacion_Final_Coding_Dojo/Artsgram/Views/Shared/_UserLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/EmilioLop/Desktop/Asp.net/Evaluacion_Final_Coding_Dojo/Artsgram/Views/Shared/_UserRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/EmilioLop/Desktop/Asp.net/Evaluacion_Final_Coding_Dojo/Artsgram/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/EmilioLop/Desktop/Asp.net/Evaluacion_Final_Coding_Dojo/Artsgram/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/EmilioLop/Desktop/Asp.net/Evaluacion_Final_Coding_Dojo/Artsgram/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/EmilioLop/Desktop/Asp.net/Evaluacion_Final_Coding_Dojo/Artsgram/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-raeg358uee
